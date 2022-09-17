@@ -7,7 +7,7 @@ function Header() {
     <Navbar style={{backgroundColor:'orange'}}>
       <Container>
         <Navbar.Brand href="/">
-          <img src="~/assets/logo.png" alt="" width={316} />
+          <img src="./assets/logo.png" alt="" width={316} />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
