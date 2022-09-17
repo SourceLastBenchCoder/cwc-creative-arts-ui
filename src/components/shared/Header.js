@@ -1,23 +1,26 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Facebook, Twitter, Instagram, Youtube, Whatsapp } from 'react-bootstrap-icons';
 
 function Header() {
   return (
-    <Navbar>
-    <Container>
-      <Navbar.Brand href="#home">
-      <img src="assets/logo.png" alt="" width={316}/>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse className="justify-content-end">
-        <Navbar.Text>
-          Signed in as: <a href="#login">Mark Otto</a>
-        </Navbar.Text>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+    <Navbar style={{backgroundColor:'orange'}}>
+      <Container>
+        <Navbar.Brand href="#home">
+          <img src="assets/logo.png" alt="" width={316} />
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Brand>
+            <a href="/" style={{ marginRight: 10 }}> <Twitter /></a>
+            <a href="/" style={{ marginRight: 10 }}>  <Youtube /></a>
+            <a href="/" style={{ marginRight: 10 }}>  <Facebook /></a>
+            <a href="/" style={{ marginRight: 10 }}>  <Instagram /></a>
+            <a href="/" style={{ marginRight: 10 }}>  <Whatsapp /></a>
+          </Navbar.Brand>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
