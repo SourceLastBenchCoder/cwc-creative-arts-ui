@@ -19,7 +19,7 @@ export default function Trending() {
       <MDBCol>
         <MDBCard>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+            src='https://super.homelane.com/products/07dec18/entertainment_unit/1.jpg'
             alt='...'
             position='top'
           />
@@ -35,7 +35,7 @@ export default function Trending() {
       <MDBCol>
         <MDBCard>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+            src='https://super.homelane.com/products/07dec18/entertainment_unit/2.jpg'
             alt='...'
             position='top'
           />
@@ -51,7 +51,7 @@ export default function Trending() {
       <MDBCol>
         <MDBCard>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+            src='https://super.homelane.com/products/07dec18/entertainment_unit/3.jpg'
             alt='...'
             position='top'
           />
@@ -67,7 +67,7 @@ export default function Trending() {
       <MDBCol>
         <MDBCard>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/044.webp'
+            src='https://super.homelane.com/products/07dec18/entertainment_unit/4.jpg'
             alt='...'
             position='top'
           />
