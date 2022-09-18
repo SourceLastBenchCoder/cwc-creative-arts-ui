@@ -1,4 +1,4 @@
-import { MDBRow } from 'mdb-react-ui-kit'
+import { MDBRow, MDBCardBody, MDBCardTitle, MDBCardText, MDBCard, MDBCol, MDBCardImage } from 'mdb-react-ui-kit'
 import React from 'react'
 import ContactForm from './ContactForm'
 

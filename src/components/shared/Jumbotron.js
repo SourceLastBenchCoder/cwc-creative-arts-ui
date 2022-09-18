@@ -10,7 +10,7 @@ export default function Jumbotron() {
     <header>
       <div
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://images.pexels.com/photos/627533/pexels-photo-627533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')", height: '600px',marginTop:85 }}
+        style={{ backgroundImage: "url('assets/1111.jpeg')", height: '800px',marginTop:85 }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
