@@ -17,7 +17,7 @@ export default function Header() {
 
     return (
         <>
-            <MDBNavbar expand='lg' light bgColor='light'>
+            <MDBNavbar expand='lg' light bgColor='light' fixed='top'>
                 <MDBContainer fluid>
                     <MDBNavbarBrand href='#'>
                         <img src="assets/logo.png" alt="" width={316} />
@@ -35,8 +35,8 @@ export default function Header() {
                     <MDBCollapse navbar show={showNavText}>
                         <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
                             <MDBNavbarItem style={{ marginLeft: '40%', marginRight: '30%' }}>
-                                <MDBBtn className='me-2' size='lg' color='warning'>
-                                <MDBIcon fab icon='slack-hash' style={{marginRight:10}}/>
+                                <MDBBtn className='me-2' size='lg' color='danger'>
+                                    <MDBIcon fab icon='slack-hash' style={{ marginRight: 10 }} />
                                     GET FREE ESTIMATE
                                 </MDBBtn>
                             </MDBNavbarItem>
@@ -48,6 +48,9 @@ export default function Header() {
                                 </MDBBtn>
                                 <MDBBtn className='m-1' style={{ backgroundColor: '#ac2bac' }} href='#'>
                                     <MDBIcon fab icon='instagram' />
+                                </MDBBtn>
+                                <MDBBtn className='m-1' style={{ backgroundColor: '#c61118' }} href='#'>
+                                    <MDBIcon fab icon='pinterest' />
                                 </MDBBtn>
                                 <MDBBtn className='m-1' style={{ backgroundColor: '#ed302f' }} href='#'>
                                     <MDBIcon fab icon='youtube' />
