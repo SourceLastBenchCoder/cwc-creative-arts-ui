@@ -62,12 +62,12 @@ export default function WhatAreWe() {
                     <MDBCard className='h-100' alignment='center'>
                         <MDBCardBody>
                             <MDBCardTitle>
-                                <MDBIcon fas icon="handshake" size='4x' />
+                            <MDBIcon fas icon="comment-alt"  size='4x'/>
                             </MDBCardTitle>
                             <MDBCardTitle>
-                                100% Genuine
+                                Any Time Support
                             </MDBCardTitle>
-                            <MDBCardText>Guaranteed 100% Genuine Branded Products at Right Price.</MDBCardText>
+                            <MDBCardText>Get all your question answered, with in 24 hours, with our Call, Chat & Email Support..</MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
