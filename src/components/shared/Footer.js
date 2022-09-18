@@ -8,6 +8,7 @@ import {
   MDBRow,
   MDBBtn
 } from 'mdb-react-ui-kit';
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -72,27 +73,27 @@ export default function Footer() {
         <section className=''>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Quick Links</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
+                  <Link to='/about-us' className='text-white'>
+                   About Us
+                  </Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
+                <Link href='/contact-us' className='text-white'>
+                   Contact Us
+                  </Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
+                <Link href='/faq' className='text-white'>
+                   FAQ
+                  </Link>
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
+                  <a href='/help' className='text-white'>
+                   Help
                   </a>
                 </li>
               </ul>

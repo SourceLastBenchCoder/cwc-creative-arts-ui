@@ -11,6 +11,7 @@ import {
     MDBCollapse,
     MDBBtn
 } from 'mdb-react-ui-kit';
+import {Link} from 'react-router-dom'
 
 export default function Header() {
     const [showNavText, setShowNavText] = useState(false);
@@ -19,8 +20,10 @@ export default function Header() {
         <>
             <MDBNavbar expand='lg' light bgColor='light' fixed='top'>
                 <MDBContainer fluid>
-                    <MDBNavbarBrand href='#'>
-                        <img src="assets/logo.png" alt="" width={316} />
+                    <MDBNavbarBrand>
+                        <Link to="/">
+                            <img src="assets/logo.png" alt="" width={316} />
+                        </Link>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler
                         type='button'
